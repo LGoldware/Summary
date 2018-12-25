@@ -1,0 +1,458 @@
+/* @font-face {
+  font-family: 'template-icon';
+  src:url('https://icanchoose.ru/public/resume/font/template4/template-icon.eot?-hk9i5S');
+  src:url('https://icanchoose.ru/public/resume/font/template4/template-icon.eot?#iefix-hk9i5S') format('embedded-opentype'),
+  url('https://icanchoose.ru/public/resume/font/template4/template-icon.woff?-hk9i5S') format('woff'),
+  url('https://icanchoose.ru/public/resume/font/template4/template-icon.ttf?-hk9i5S') format('truetype'),
+  url('https://icanchoose.ru/public/resume/font/template4/template-icon.svg?-hk9i5S#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+.template-icon {
+  height: 14px;
+  line-height: 1;
+  margin-right: 8px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.template-icon-piechart:before {
+  content: "\e600";
+}
+.template-icon-in:before {
+  content: "\e601";
+}
+.template-icon-tw:before {
+  content: "\e602";
+}
+.template-icon-fb:before {
+  content: "\e603";
+}
+.template-icon-vk:before {
+  content: "\e604";
+}
+.template-icon-teaching:before {
+  content: "\e605";
+}
+.template-icon-briefcase:before {
+  content: "\e606";
+}
+.template-icon-bookmark:before {
+  content: "\e607";
+}
+.template-icon-global:before {
+  content: "\e608";
+}
+.template-icon-heart:before {
+  content: "\e609";
+}
+.template-icon-cabinet:before {
+  content: "\e60a";
+}
+.template-icon-book:before {
+  content: "\e60b";
+}
+.template-icon-letter:before {
+  content: "\e60c";
+}
+.template-icon-email:before {
+  content: "\e60e";
+}
+.template-icon-free:before {
+  content: "\e610";
+}
+.template-icon-about:before {
+  content: "\e611";
+}
+.template-icon-phone:before {
+  content: "\e613";
+}
+.template-icon-gh:before {
+  content: "\e800";
+}
+.template-icon-international:before {
+  content: "\e900";
+}
+.template-icon-post:before {
+  content: "\e901";
+}
+.template-icon-language:before {
+  content: "\e902";
+}
+.template-icon-skype:before {
+  content: "\e903";
+}
+.template-icon-location:before {
+  content: "\e904";
+} */
+
+.base-block .block-content-row .template-icon {
+  color: #0747A6;
+  font-size: 14px;
+  float: left;
+  margin-right: 6px;
+  width: 14px;
+  text-align: center;
+}
+/* </editor-fold> */
+
+body {
+  color: #1b1c1b;
+}
+
+/* <editor-fold desc="Header"> */
+.header {
+  background-color: #f4f4f5;
+  height: 105px;
+  z-index: 1;
+  margin: -18px -18px 18px;
+}
+.header > div {
+  float: left;
+}
+.header__avatar {
+  position: relative;
+  width: 145px;
+  height: 105px;
+  padding: 11px 0 0 18px;
+}
+.header__avatar__substrate{
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #0747A6;
+}
+.header__avatar__img {
+  width: 84px;
+  height: 84px;
+  background-color: #b2b2b2;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+  z-index: 1;
+}
+.header__name {
+  width: 184px;
+  padding-left: 24px;
+}
+.header__name__text {
+  font-size: 28px;
+  line-height: 1;
+  display: table-cell;
+  vertical-align: middle;
+  height: 105px;
+}
+/* </editor-fold> */
+
+/* <editor-fold desc="All"> */
+.block.-last .block-content {
+  padding-bottom: 0;
+}
+.block-heading {
+  background-color: #37474f;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-left: -18px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.block-heading::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 12px solid transparent;
+  border-top-color: #15212e;
+  border-right: 0;
+  border-left-width: 18px;
+}
+.block-heading-icon {
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 24px;
+}
+.block-heading-icon-wrap {
+  color: #ffffff;
+  text-align: center;
+  float: right;
+  margin-right: 14px;
+}
+.block-heading-title {
+  padding-left: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.block-content {
+  font-size: 12px;
+  position: relative;
+  z-index: 2;
+  padding-top: 22px;
+  padding-bottom: 30px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.block-content-row {
+  margin-bottom: 14px;
+}
+.block-content-row.-mini {
+  margin-bottom: 18px;
+}
+.block-content-row.-last {
+  margin-bottom: 0;
+}
+.block-content-row-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  font-size: 12px;
+  line-height: 1;
+  position: relative;
+}
+.block-content-row-descr {
+  color: #666766;
+}
+/* </editor-fold> */
+
+/* <editor-fold desc="Content"> */
+.content {
+  width: 438px;
+  float: left;
+  min-height: 1px;
+  margin-right: 18px;
+  position: relative;
+}
+
+.wrap .content, .wrap .sidebar{
+  height: 1005px;
+}
+
+.header + .wrap .content, .header + .wrap .sidebar{
+  height: 900px;
+}
+
+.content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f4f4f5;
+}
+.content .block-content-row-heading {
+  color: #2d3e50;
+}
+.content .block-content-row-heading::before {
+  position: absolute;
+  content: '';
+  top: 2px;
+  left: -17px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff0000;
+}
+.content .block-content-row-body {
+  padding-left: 12px;
+}
+.content .block-content-row {
+  position: relative;
+ }
+.content .block-content-row::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: -2px;
+  bottom: -16px;
+  width: 2px;
+  background-color: #d1d1d1;
+ }
+.content .block-content-row.-last::before {
+  display: none;
+}
+.content .block-content-row.-last {
+  border-left-color: transparent;
+}
+.content .block-content-row.-last p:last-child {
+  margin-bottom: 0;
+}
+.content .block-content-row.-mini::before {
+  bottom: -20px;
+}
+.content .block-content-row-date {
+  text-align: right;
+  margin-left: 16px;
+  font-size: 11px;
+}
+/* </editor-fold> */
+
+/* <editor-fold desc="Sidebar"> */
+.sidebar {
+  float: left;
+  width: 225px;
+  min-height: 1px;
+  position: relative;
+  height: 1010px;
+}
+.sidebar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f4f4f5;
+}
+.sidebar .block-heading {
+  height: 40px;
+  line-height: 40px;
+  margin-left: 0;
+  margin-right: -18px;
+}
+.sidebar .block-heading::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: auto;
+  border: 12px solid transparent;
+  border-top-color: #15212e;
+  border-left: 0;
+  border-right-width: 18px;
+}
+.sidebar .block-heading-icon-wrap {
+  float: left;
+  margin-right: 0;
+  margin-left: 14px;
+}
+.sidebar .block-heading-icon {
+  line-height: 40px;
+}
+.sidebar .block-heading-title {
+  text-align: center;
+  padding-left: 0;
+  width: 163px;
+  font-size: 16px;
+}
+.sidebar .block-content {
+  padding-top: 22px;
+  padding-bottom: 30px;
+}
+.sidebar .-lh1 {
+  line-height: 1;
+}
+.sidebar .block-content.-mini .block-content-row-heading::before {
+  position: absolute;
+  content: '';
+  top: 2px;
+  left: -17px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff0000;
+}
+.sidebar .block-content.-mini .block-content-row-body {
+  padding-left: 12px;
+}
+.sidebar .block-content.-mini .block-content-row {
+  position: relative;
+}
+.sidebar .block-content.-mini .block-content-row::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: -2px;
+  bottom: -20px;
+  width: 2px;
+  background-color: #d1d1d1;
+}
+.sidebar .block-content.-mini .block-content-row.-last::before {
+  display: none;
+}
+.sidebar .block-content-row.-last p {
+  margin-bottom: 0;
+}
+
+.progress-bar {
+  display: block;
+  line-height: 8px;
+  border: 2px solid #282827;
+  border-radius: 6px;
+  width: 88px;
+}
+.progress {
+  background-color: #282827;
+  height: 8px;;
+  display: block;
+}
+    .progress-1 {
+  width: 10%;
+}
+    .progress-2 {
+  width: 20%;
+}
+    .progress-3 {
+  width: 30%;
+}
+    .progress-4 {
+  width: 40%;
+}
+    .progress-5 {
+  width: 50%;
+}
+    .progress-6 {
+  width: 60%;
+}
+    .progress-7 {
+  width: 70%;
+}
+    .progress-8 {
+  width: 80%;
+}
+    .progress-9 {
+  width: 90%;
+}
+    .progress-10 {
+  width: 100%;
+}
+
+.hobby {
+  font-size: 26px;
+  color: #3f3d3c;
+}
+.hobby i {
+  margin: 0 8px;
+}
+.hobby i:last-child {
+  margin-right: 0;
+}
+/* </editor-fold> */
+
+.block-letter .block-content {
+  margin-top: 60px;
+}
+
+.block-letter .block-content p {
+  margin-bottom: 10px;
+}
+
+.content-letter {
+  width: auto;
+  float: none;
+  margin-right: -18px;
+}
+
+.watermark {
+  position: absolute;
+  right: 132px;
+  bottom: 14px;
+}
