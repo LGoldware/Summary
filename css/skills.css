@@ -1,0 +1,17 @@
+.skill-image{
+    height: 32px;
+}
+.skill-block{
+    display: flex;
+    margin-bottom: 14px;
+}
+.skill-block.last{
+    margin-bottom: 0px;
+}
+.skill-content-block{
+    margin-left: 8px;
+}
+.skill-header{
+    margin: 0px;
+    color: #2d3e50;
+}
