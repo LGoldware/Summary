@@ -19,6 +19,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.line-block{
+  display: flex;
+  align-items: center;
+}
 
 .template-icon-piechart:before {
   content: "\e600";
