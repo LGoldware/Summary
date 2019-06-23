@@ -145,13 +145,17 @@ body {
 .header__name {
   width: 184px;
   padding-left: 24px;
+  display: flex;
+  height: 105px;
+  align-items: center;
+  flex-flow: wrap;
 }
 .header__name__text {
   font-size: 28px;
-  line-height: 1;
-  display: table-cell;
-  vertical-align: middle;
-  height: 105px;
+    line-height: 1;
+    display: table-cell;
+    vertical-align: middle;
+    width: 184px
 }
 /* </editor-fold> */
 
@@ -342,8 +346,8 @@ body {
   line-height: 40px;
 }
 .sidebar .block-heading-title {
-  text-align: center;
-  padding-left: 0;
+  /* text-align: center;
+  padding-left: 0; */
   width: 163px;
   font-size: 16px;
 }
