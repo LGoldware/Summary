@@ -466,6 +466,7 @@ a{
 
 p {
   margin: 0 0 2px;
+  text-align: justify;
 }
 
 blockquote {
